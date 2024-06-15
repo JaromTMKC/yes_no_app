@@ -21,6 +21,7 @@ class AppTheme {
 
   ThemeData theme() {
     return ThemeData(
+      fontFamily: 'CascadiaCodePL',
       useMaterial3: true,
       colorSchemeSeed: _colorThemes[selectedColor],
       brightness: brightness,
